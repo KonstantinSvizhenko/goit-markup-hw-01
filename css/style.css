@@ -16,7 +16,7 @@ a {
 }
 body {
     color: #757575;
-    background-color: bisque;
+    background-color: #E5E5E5;
 }   
 body {
 font-family: 'Roboto', sans-serif;
@@ -94,6 +94,7 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF;
 }
+
 .hero-button {
     cursor: pointer;
 
@@ -101,11 +102,20 @@ color: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-family: 'Roboto', sans-serif;
-    
     font-weight: bold;
     font-size: 16px;
     line-height: 1.88;
     color: #FFFFFF;
+}
+.hero-button:hover {
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.hero-button:focus {
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
                     /* advantages */
 .advantages-item {
@@ -206,3 +216,61 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
+             /* Portfolio styling */
+.portfolio-nav-list {
+    font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+background: #F5F4FA;
+border-radius: 4px;
+}
+
+.portfolio-nav-list:hover {
+background: #2196F3;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+.portfolio-nav-list:focus {
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #FFFFFF;
+    }
+    .portfolio-img-name {
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        color: #212121;
+    }
+    .portfolio-img-describe {
+        font-family: 'Roboto', sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 1.85;
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
